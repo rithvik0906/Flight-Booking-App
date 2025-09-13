@@ -34,7 +34,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/rithvik0906/Flight-Booking-App.git
 cd Flight-Booking-App
-
+```
 Install dependencies:
 
 ```bash
