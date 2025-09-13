@@ -39,17 +39,17 @@ Install dependencies:
 
 ```bash
 npm install
-
+```
 Run the app locally:
 
 ```bash
 npm start
-
+```
 Build for production:
 
 ```bash
 npm run build
-
+```
 ## 🌍 Live Demo
 
 https://rithvik0906.github.io/Flight-Booking-App
