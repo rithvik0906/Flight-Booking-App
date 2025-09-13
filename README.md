@@ -12,7 +12,7 @@ A React-based flight booking web application that allows users to search, book, 
 - ⚡ **Fast Deployment** – hosted on GitHub Pages  
 
 ## 📁 Project Structure
-
+```
 flight-booking-app/
 ├── public/ # Static assets (images, manifest, index.html)
 ├── src/ # React source code
@@ -25,7 +25,7 @@ flight-booking-app/
 │ └── index.js # Entry point
 ├── package.json # Project configuration
 ├── README.md # Documentation
-
+```
 
 ## 🛠️ Installation & Setup
 
