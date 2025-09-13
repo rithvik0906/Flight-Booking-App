@@ -12,7 +12,7 @@ const Home = () => {
       style={{
         minHeight: "100vh",
         width: "100vw",
-        backgroundImage: `url(${process.env.PUBLIC_URL}/plane.jpg)`,
+        backgroundImage: "url('/plane.jpg')",
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
