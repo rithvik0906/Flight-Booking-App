@@ -57,5 +57,5 @@ npm run build
 ## 📸 Screenshots
 
 ![Home Page](outputs/image1.png)
-![Booking Page](outputs/image2.png)
+![Booking Page](outputs/image2.jpg)
 ![Dashboard Page](outputs/image3.png)
