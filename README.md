@@ -52,7 +52,7 @@ npm run build
 ```
 ## 🌍 Live Demo
 
-![Flight-Booking-App](https://rithvik0906.github.io/Flight-Booking-App)
+[Flight-Booking-App](https://rithvik0906.github.io/Flight-Booking-App)
 
 ## 📸 Screenshots
 
