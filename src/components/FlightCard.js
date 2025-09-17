@@ -2,7 +2,8 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 
 const FlightCard = ({ flight, onBook }) => {
-  const brandImg = `/brands/${flight.airline.toLowerCase().replace(/\s+/g, '-')}.png`;
+  const brandImg = `${process.env.PUBLIC_URL}/brands/${flight.airline.toLowerCase().replace(/\s+/g, '-')}.png`;
+
   return (
     <Card className="mb-3 shadow-sm">
       <Card.Body className="d-flex align-items-center justify-content-between">
@@ -23,7 +24,7 @@ const FlightCard = ({ flight, onBook }) => {
         <img
           src={brandImg}
           alt={flight.airline}
-          style={{ maxWidth: 80, maxHeight: 48, objectFit: 'contain', marginLeft: 16 }}
+          style={{ maxWidth: 80, maxHeight: 48, objectFit: "contain", marginLeft: 16 }}
         />
       </Card.Body>
     </Card>
