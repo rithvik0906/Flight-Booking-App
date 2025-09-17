@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 
 const FlightCard = ({ flight, onBook }) => {
-  const brandImg = `${process.env.PUBLIC_URL}/brands/${flight.airline.toLowerCase().replace(/\s+/g, '-')}.png`;
+  const brandImg = `${process.env.PUBLIC_URL}/brands/${flight.airline.toLowerCase()}.png`;
 
   return (
     <Card className="mb-3 shadow-sm">
